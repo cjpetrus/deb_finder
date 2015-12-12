@@ -78,4 +78,4 @@ def init_deb_finder():
 
 if __name__ == "__main__":
     signal.signal(signal.SIGINT, signal_handler)
-    init_deb_finder()
+    print init_deb_finder()
