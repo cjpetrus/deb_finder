@@ -56,6 +56,7 @@ def get_deb_url(apt_package_name):
     print 'Finding .deb file for the package {}.'.format(apt_package_name, )
     deb_file = run_shell_cmd(DEB_CMD.format(apt_package_name))
     if deb_file:
+        print deb_file
         return deb_file
     else:
         print 'Unable to find .deb file for the package {}.'.format(apt_package_name, )

@@ -28,9 +28,9 @@ python deb_finder.py
 This was a quick PoC. I may or may not continue to improve it. 
 
 Things to do:
-	1) Output results to a file
-	2) Figure out how to cut out the cruft debs/deps
-	3) Speed it up, find a faster way to retrieve the .deb url or thread it perhaps.
-	4) Other stuff TBD...
+	*1) Output results to a file
+	*2) Figure out how to cut out the cruft debs/deps
+	*3) Speed it up, find a faster way to retrieve the .deb url or thread it perhaps.
+	*4) Other stuff TBD...
 
 
